@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // adds switch for glasses
+    // connects that switch to glasses image
     @IBOutlet weak var glassesSwitch: UISwitch!
     @IBOutlet weak var potatoGlasses: UIImageView!
     @IBAction func glassesSwitchPressed(_ sender: Any) {
@@ -20,6 +22,8 @@ class ViewController: UIViewController {
         }
     }
     
+    // adds switch for eyes
+    // connects that switch to eyes image
     @IBOutlet weak var eyesSwitch: UISwitch!
     @IBOutlet weak var eyes: UIImageView!
     @IBAction func eyesSwitchPressed(_ sender: Any) {
@@ -31,6 +35,8 @@ class ViewController: UIViewController {
 
     }
     
+    // adds switch for arms
+    // connects that switch to arms image
     @IBOutlet weak var armsSwitch: UISwitch!
     @IBOutlet weak var arms: UIImageView!
     @IBAction func armsSwitchPressed(_ sender: Any) {
@@ -42,6 +48,8 @@ class ViewController: UIViewController {
 
     }
     
+    // adds switch for ears
+    // connects that switch to ears image
     @IBOutlet weak var earsSwitch: UISwitch!
     @IBOutlet weak var ears: UIImageView!
     @IBAction func earsSwitchPressed(_ sender: Any) {
@@ -52,6 +60,8 @@ class ViewController: UIViewController {
         }
     }
     
+    // adds switch for hat
+    // connects that switch to hat image
     @IBOutlet weak var hatSwitch: UISwitch!
     @IBOutlet weak var hat: UIImageView!
     @IBAction func hatSwitchPressed(_ sender: Any) {
@@ -63,6 +73,8 @@ class ViewController: UIViewController {
 
     }
     
+    // adds switch for mouth
+    // connects that switch to mouth image
     @IBOutlet weak var mouthSwitch: UISwitch!
     @IBOutlet weak var mouth: UIImageView!
     @IBAction func mouthSwitchPressed(_ sender: Any) {
@@ -73,6 +85,8 @@ class ViewController: UIViewController {
         }
     }
     
+    // adds switch for mustache
+    // connects that switch to mustache image
     @IBOutlet weak var mustacheSwitch: UISwitch!
     @IBOutlet weak var mustache: UIImageView!
     @IBAction func mustacheSwitchPressed(_ sender: Any) {
@@ -83,6 +97,8 @@ class ViewController: UIViewController {
         }
     }
     
+    // adds switch for nose
+    // connects that switch to nose image
     @IBOutlet weak var noseSwitch: UISwitch!
     @IBOutlet weak var nose: UIImageView!
     @IBAction func noseSwitchPressed(_ sender: Any) {
@@ -93,6 +109,8 @@ class ViewController: UIViewController {
         }
     }
     
+    // adds switch for shoes
+    // connects that switch to shoes image
     @IBOutlet weak var shoesSwitch: UISwitch!
     @IBOutlet weak var shoes: UIImageView!
     @IBAction func shoesSwitchPressed(_ sender: Any) {
@@ -103,6 +121,17 @@ class ViewController: UIViewController {
         }
     }
     
+    // adds switch for eyebrows
+    // connects that switch to eyebrows image
+    @IBOutlet weak var eyebrowsSwitch: UISwitch!
+    @IBOutlet weak var eyebrows: UIImageView!
+    @IBAction func eyebrowsSwitchPressed(_ sender: Any) {
+        if !(eyebrowsSwitch.isOn){
+            eyebrows.isHidden = true
+        }else{
+            eyebrows.isHidden = false
+        }
+    }
     
     
     
