@@ -10,6 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var glassesSwitch: UISwitch!
+    @IBOutlet weak var potatoGlasses: UIImageView!
+    @IBAction func glassesSwitchPressed(_ sender: Any) {
+        if !(glassesSwitch.isOn){
+            potatoGlasses.isHidden = true
+        }else{
+            potatoGlasses.isHidden = false
+        }
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
