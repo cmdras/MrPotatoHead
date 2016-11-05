@@ -95,14 +95,23 @@
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R79-zY-pVI">
                                                 <rect key="frame" x="8" y="68" width="51" height="31"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <connections>
+                                                    <action selector="eyesSwitchPressed:" destination="BYZ-38-t0r" eventType="valueChanged" id="enM-Av-5sL"/>
+                                                </connections>
                                             </switch>
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8nN-Wj-87u">
                                                 <rect key="frame" x="8" y="107" width="51" height="31"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <connections>
+                                                    <action selector="armsSwitchPressed:" destination="BYZ-38-t0r" eventType="valueChanged" id="hnj-px-DMG"/>
+                                                </connections>
                                             </switch>
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qyy-hs-NiX">
                                                 <rect key="frame" x="8" y="146" width="51" height="31"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <connections>
+                                                    <action selector="earsSwitchPressed:" destination="BYZ-38-t0r" eventType="valueChanged" id="9so-CY-maT"/>
+                                                </connections>
                                             </switch>
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6dr-Iw-5g8">
                                                 <rect key="frame" x="8" y="185" width="51" height="31"/>
@@ -139,6 +148,9 @@
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0W8-1p-rqb">
                                                 <rect key="frame" x="175" y="28" width="51" height="31"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <connections>
+                                                    <action selector="hatSwitchPressed:" destination="BYZ-38-t0r" eventType="valueChanged" id="jAl-kC-GbN"/>
+                                                </connections>
                                             </switch>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="hat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TVL-Fl-1gY">
                                                 <rect key="frame" x="241" y="33" width="25" height="21"/>
@@ -150,18 +162,30 @@
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RL2-Oh-hNH">
                                                 <rect key="frame" x="175" y="67" width="51" height="31"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <connections>
+                                                    <action selector="mouthSwitchPressed:" destination="BYZ-38-t0r" eventType="valueChanged" id="aRl-8f-Dmn"/>
+                                                </connections>
                                             </switch>
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AJ5-dl-UvL">
                                                 <rect key="frame" x="175" y="106" width="51" height="31"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <connections>
+                                                    <action selector="mustacheSwitchPressed:" destination="BYZ-38-t0r" eventType="valueChanged" id="nCv-RO-xqC"/>
+                                                </connections>
                                             </switch>
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ov8-JP-JH2">
                                                 <rect key="frame" x="175" y="145" width="51" height="31"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <connections>
+                                                    <action selector="noseSwitchPressed:" destination="BYZ-38-t0r" eventType="valueChanged" id="q7v-pd-mtI"/>
+                                                </connections>
                                             </switch>
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mAI-qB-n2n">
                                                 <rect key="frame" x="175" y="184" width="51" height="31"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <connections>
+                                                    <action selector="shoesSwitchPressed:" destination="BYZ-38-t0r" eventType="valueChanged" id="JdC-ty-JFA"/>
+                                                </connections>
                                             </switch>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="mouth" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e6Z-HX-h9F">
                                                 <rect key="frame" x="232" y="72" width="50" height="21"/>
@@ -207,8 +231,24 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="arms" destination="RLm-3u-I2q" id="TNy-Et-kqk"/>
+                        <outlet property="armsSwitch" destination="8nN-Wj-87u" id="pK9-uY-leL"/>
+                        <outlet property="ears" destination="lgl-1S-NEM" id="kYX-dU-oY0"/>
+                        <outlet property="earsSwitch" destination="qyy-hs-NiX" id="mnk-pp-P1e"/>
+                        <outlet property="eyes" destination="frF-Ao-A7m" id="9x7-tl-yri"/>
+                        <outlet property="eyesSwitch" destination="R79-zY-pVI" id="JWg-Kd-6Av"/>
                         <outlet property="glassesSwitch" destination="bHw-1N-k8v" id="pRL-0R-QC8"/>
+                        <outlet property="hat" destination="2R9-XS-hJS" id="VFm-zi-MtG"/>
+                        <outlet property="hatSwitch" destination="0W8-1p-rqb" id="eaU-7I-USm"/>
+                        <outlet property="mouth" destination="mZr-4H-FFV" id="BVP-on-edR"/>
+                        <outlet property="mouthSwitch" destination="RL2-Oh-hNH" id="R7a-8l-aOF"/>
+                        <outlet property="mustache" destination="dSs-qM-k3L" id="FSE-CZ-CNJ"/>
+                        <outlet property="mustacheSwitch" destination="AJ5-dl-UvL" id="c2W-T3-yam"/>
+                        <outlet property="nose" destination="WSE-sf-LWd" id="L35-ih-fgg"/>
+                        <outlet property="noseSwitch" destination="Ov8-JP-JH2" id="kmv-lX-z4X"/>
                         <outlet property="potatoGlasses" destination="8em-Af-yL5" id="hGz-oP-n5y"/>
+                        <outlet property="shoes" destination="wl6-Vb-yCx" id="uze-0y-T5U"/>
+                        <outlet property="shoesSwitch" destination="mAI-qB-n2n" id="jIb-jp-TeI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
